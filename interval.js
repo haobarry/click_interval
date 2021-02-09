@@ -10,7 +10,8 @@ var bbb = document.getElementById('ext-gen470');
 var timer = window.setInterval(
   function(){bbb.click(loops())}
   ,6000);
-
+// 清除计时器
+clearInterval(timer)
 
 //时间倒数 setTimeout嵌套
 let i = 1,
